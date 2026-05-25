@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "ce52b69c4930c676",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ef8d09179a49b9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e824a3d4c755994f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2fcf0b079456868b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e10013828fc8c165",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85d578aa060b7d0c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4eb96c65bc067120",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "5011319e726efa40",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8531c738ecebe750",
+    "type": "split",
+    "children": [
+      {
+        "id": "841f0a36522c953f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68d340b34e404766",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "README 的反向链接列表"
+            }
+          },
+          {
+            "id": "596bfba8e2cc5670",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "README 的出链列表"
+            }
+          },
+          {
+            "id": "770e94048b139424",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "36ea6a4e8276f03b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "9fb1ed01bad75887",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "e824a3d4c755994f",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "README.md",
+    "_System/how-to-use-this-repo.md",
+    "_System/template.md",
+    "_System/workflow.md",
+    "_System/codex-brief.md",
+    "00_Inbox/20260523-batch01.md",
+    "01_Concepts/Transformer架构.md",
+    "01_Concepts/OPC一人公司模式.md",
+    "01_Concepts/AI Agent底层原理.md",
+    "02_People/Andrew Ng.md",
+    "02_People/Andrej Karpathy.md",
+    "02_People/AI核心人物清单.md",
+    "02_People/翁家翌.md",
+    "04_Questions/如何获得结构理解表达整合能力.md",
+    "04_Questions/核心认知问题.md",
+    "04_Questions/触发-幻方是什么.md",
+    "05_Insights/AI执行系统而非工具.md",
+    "05_Insights/年代与机会自我定位.md",
+    "05_Insights/路径模式.md",
+    "07_Skills/碎片知识管理三步法.md",
+    "09_Models/认知路径模型.md",
+    "09_Models/复杂表达模型.md",
+    "5月25号   电脑端入口.md",
+    "倩倩的节奏.canvas",
+    "未命名 1.base",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "未命名.base",
+    "风格手册/账号主页设置.md",
+    "倩倩碎片化整理入口/IMG_4567.jpeg",
+    "倩倩碎片化整理入口/IMG_4567 1.jpeg",
+    "倩倩碎片化整理入口/IMG_4565.jpeg",
+    "倩倩碎片化整理入口/IMG_4566.jpeg",
+    "倩倩碎片化整理入口/2026-05-25.md",
+    "倩倩碎片化整理入口",
+    "00_Inbox/images",
+    "04_Questions",
+    "05_Insights",
+    "01_Concepts",
+    "08_Actions",
+    "09_Models",
+    "07_Skills"
+  ]
+}
