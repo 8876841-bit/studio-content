@@ -1,0 +1,165 @@
+{
+  "project": "studio-content Multi-Agent Framework",
+  "version": "1.0",
+  "knowledge_bases": [
+    {
+      "name": "Product KB",
+      "source": [
+        "木作/01_厨房基础",
+        "木作/03_功能设计",
+        "木作/04_产品系列"
+      ],
+      "purpose": "产品/空间系统解释"
+    },
+    {
+      "name": "Material KB",
+      "source": [
+        "木作/02_材料体系"
+      ],
+      "purpose": "材料性能、感官、情绪与适用场景"
+    },
+    {
+      "name": "Craft KB",
+      "source": [
+        "木作/06_工艺体系"
+      ],
+      "purpose": "工艺、风险、质量与体验"
+    },
+    {
+      "name": "Delivery KB",
+      "source": [
+        "木作/07_测量与绘图",
+        "木作/08_安装交付"
+      ],
+      "purpose": "测量、图纸、水电、安装、验收"
+    },
+    {
+      "name": "Case KB",
+      "source": [
+        "案例",
+        "案例仓库"
+      ],
+      "purpose": "真实案例与用户场景"
+    },
+    {
+      "name": "Content KB",
+      "source": [
+        "自媒体",
+        "风格手册",
+        "_extracted",
+        "模板",
+        "CLAUDE.md"
+      ],
+      "purpose": "选题、脚本、拍摄、发布"
+    },
+    {
+      "name": "Business KB",
+      "source": [
+        "运营策略",
+        "木作/09_供应链",
+        "木作/10_工作室运营"
+      ],
+      "purpose": "供应链、报价、服务产品、变现"
+    },
+    {
+      "name": "Human-Environment KB",
+      "source": [
+        "建议新增"
+      ],
+      "purpose": "需求、行为、环境、系统桥接层"
+    }
+  ],
+  "agents": [
+    {
+      "name": "产品专家Agent",
+      "reads": [
+        "Product KB",
+        "Material KB",
+        "Craft KB",
+        "Delivery KB"
+      ],
+      "outputs": [
+        "产品解释",
+        "专业校验",
+        "风险判断"
+      ]
+    },
+    {
+      "name": "材料研究员Agent",
+      "reads": [
+        "Material KB",
+        "Human-Environment KB"
+      ],
+      "outputs": [
+        "材料感官分析",
+        "材料情绪分析",
+        "材料选题"
+      ]
+    },
+    {
+      "name": "工艺专家Agent",
+      "reads": [
+        "Craft KB",
+        "Delivery KB"
+      ],
+      "outputs": [
+        "工艺解释",
+        "施工风险",
+        "安装验收"
+      ]
+    },
+    {
+      "name": "案例拆解Agent",
+      "reads": [
+        "Case KB",
+        "Product KB",
+        "Human-Environment KB"
+      ],
+      "outputs": [
+        "案例亮点",
+        "需求拆解",
+        "拍摄脚本"
+      ]
+    },
+    {
+      "name": "内容导演Agent",
+      "reads": [
+        "Content KB",
+        "Case KB",
+        "Human-Environment KB"
+      ],
+      "outputs": [
+        "口播脚本",
+        "画面清单",
+        "剪辑节奏",
+        "发布文案"
+      ]
+    },
+    {
+      "name": "商业策略Agent",
+      "reads": [
+        "Business KB",
+        "Content KB",
+        "Case KB"
+      ],
+      "outputs": [
+        "服务产品",
+        "报价解释",
+        "责任边界"
+      ]
+    },
+    {
+      "name": "研究员Agent",
+      "reads": [
+        "Human-Environment KB",
+        "Observation Logs",
+        "Content Data"
+      ],
+      "outputs": [
+        "周度研究发现",
+        "高频主题",
+        "长期方向判断"
+      ]
+    }
+  ]
+}
